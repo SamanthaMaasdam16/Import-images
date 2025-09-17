@@ -1,11 +1,11 @@
 body
 {
-  background-color: lightblue;
-}
-#OceanBackground
-{
-    width: auto;
-    height: auto;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  position: sticky;
+
 }
 
 h1
@@ -15,11 +15,18 @@ h1
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#BibleVerse
+.images
 {
-   height: 300px;
-   width: 100px;
-   padding-left: 20px;
-   padding-right: 30px
-   
+   height: 500px;
+   width: 300px;
+   margin-left: 30px;
+   margin-bottom: 30px;
+   padding-right: 30px;
+ 
+}
+p
+{
+  font-size: 20px ;
+  font-family:'Times New Roman', Times, serif;
+  font-display: center;
 }
