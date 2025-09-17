@@ -1,0 +1,23 @@
+body
+{
+  background-image: url("images/OceanBackground.jpeg");
+}
+#OceanBackground
+{
+    width: auto;
+    height: auto;
+}
+
+h1
+{
+    text-align: center;
+    color: lightcoral; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#BibleVerse
+{
+   height: 500px;
+   width: 300px;
+   padding-left: 20px;
+}
